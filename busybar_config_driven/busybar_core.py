@@ -194,7 +194,7 @@ class ScreenController:
             elapsed = time.monotonic() - self.last_draw_time
 
         if interval is not None and elapsed >= interval:
-            self.draw_current(clear_first=False)
+            self.draw_current()
 
 def refresh_loop(
     controller: ScreenController,
