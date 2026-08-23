@@ -38,7 +38,7 @@ class BannerScreen:
     auto_scroll: bool = True
 
     # Number of pixels the banner moves per redraw.
-    scroll_step: int = 1
+    scroll_step: int = 2
 
     # Time between scrolling frames.
     refresh_seconds: float | None = 0.08

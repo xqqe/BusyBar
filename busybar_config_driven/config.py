@@ -27,8 +27,8 @@ SCREENS = [
     ),
     BannerScreen(
         name="placeholder banner",
-        message="whaddup my dudes",
-        font="large",
+        message="gone to lunch",
+        font="normal",
         color="#00FFFFFF",
         x=36,
         y=15,
